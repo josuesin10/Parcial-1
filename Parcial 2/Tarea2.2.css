@@ -1,0 +1,106 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column; 
+    color: #ffffff; 
+}
+
+nav {
+    background-color: #000; /* Cambiado a negro */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff; /* Cambiado a blanco */
+}
+
+nav ul li a:hover {
+    background-color: #0c0c0c;
+    color: #000;
+}
+
+.container-hero {
+    background-color: #555555;
+    text-align: center;
+}
+
+.container-navbar {
+    background: linear-gradient(to bottom, #000, #555555, #000);
+    text-align: center;
+}
+
+h1 {
+    font-family: cursive;
+    background-color: #fff;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+h2,
+p {
+    width: 80%;
+    margin: 0 auto; 
+    padding: 10px;
+    border-bottom: 1px solid #ccc; 
+}
+
+.form-title {
+    border-bottom: none; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+}
+
+table, th, td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+    background-color: #555555;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+table.example-table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+    background-color: #1c1a1a; 
+}
+
+table.example-table th, table.example-table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+    background-color: #555555;
+}
+
+.form-container {
+    text-align: center;
+    margin: 0 auto;
+}
